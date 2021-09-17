@@ -1,2 +1,3 @@
 # fizzbuzztest
-Practice fizzbuzz test
+Practice Test Fizzbuzz
+with ddd (using jest) in javascript
