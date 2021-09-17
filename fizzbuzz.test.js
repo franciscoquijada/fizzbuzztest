@@ -18,5 +18,17 @@ describe("fizzbuzz", () => {
         const expected = 'fizz';
         const result = fizzbuzz(6);
         expect(expected).toBe(result);
+    });
+
+    test("should print fizz if receive 5", () => {
+        const expected = 'buzz';
+        const result = fizzbuzz(5);
+        expect(expected).toBe(result);
+    });
+
+    test("should print fizz if receive multiple of 5", () => {
+        const expected = 'buzz';
+        const result = fizzbuzz(10);
+        expect(expected).toBe(result);
     })
 });
